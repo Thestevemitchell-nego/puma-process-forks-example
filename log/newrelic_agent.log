@@ -1,0 +1,1335 @@
+# Logfile created on 2022-01-09 11:25:29 -0500 by logger.rb/66358
+[2022-01-09 11:25:29 -0500 Steves-MacBook-Pro.local (808)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 11:25:29 -0500 Steves-MacBook-Pro.local (808)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 11:25:29 -0500 Steves-MacBook-Pro.local (808)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 11:25:29 -0500 Steves-MacBook-Pro.local (808)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 11:25:29 -0500 Steves-MacBook-Pro.local (808)] INFO : Environment: development
+[2022-01-09 11:25:29 -0500 Steves-MacBook-Pro.local (808)] INFO : Dispatcher: puma
+[2022-01-09 11:25:29 -0500 Steves-MacBook-Pro.local (808)] INFO : Application: development
+[2022-01-09 11:25:29 -0500 Steves-MacBook-Pro.local (808)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 11:25:30 -0500 Steves-MacBook-Pro.local (808)] INFO : Installing Sinatra instrumentation
+[2022-01-09 11:25:30 -0500 Steves-MacBook-Pro.local (808)] INFO : Installing http.rb instrumentation
+[2022-01-09 11:25:30 -0500 Steves-MacBook-Pro.local (808)] INFO : Installing Net instrumentation
+[2022-01-09 11:25:30 -0500 Steves-MacBook-Pro.local (808)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 11:25:30 -0500 Steves-MacBook-Pro.local (808)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 11:25:30 -0500 Steves-MacBook-Pro.local (808)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 11:25:30 -0500 Steves-MacBook-Pro.local (808)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 11:25:30 -0500 Steves-MacBook-Pro.local (808)] INFO : Finished instrumentation
+[2022-01-09 11:25:31 -0500 Steves-MacBook-Pro.local (808)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 11:25:31 -0500 Steves-MacBook-Pro.local (808)] INFO : Installing Redis Instrumentation
+[2022-01-09 11:25:38 -0500 Steves-MacBook-Pro.local (982)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 11:25:40 -0500 Steves-MacBook-Pro.local (982)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 11:26:23 -0500 Steves-MacBook-Pro.local (983)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 11:26:26 -0500 Steves-MacBook-Pro.local (983)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 11:31:34 -0500 Steves-MacBook-Pro.local (982)] INFO : Starting Agent shutdown
+[2022-01-09 11:31:34 -0500 Steves-MacBook-Pro.local (983)] INFO : Starting Agent shutdown
+[2022-01-09 11:31:41 -0500 Steves-MacBook-Pro.local (1090)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 11:31:41 -0500 Steves-MacBook-Pro.local (1090)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 11:31:41 -0500 Steves-MacBook-Pro.local (1090)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 11:31:41 -0500 Steves-MacBook-Pro.local (1090)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 11:31:41 -0500 Steves-MacBook-Pro.local (1090)] INFO : Environment: development
+[2022-01-09 11:31:41 -0500 Steves-MacBook-Pro.local (1090)] INFO : Dispatcher: puma
+[2022-01-09 11:31:41 -0500 Steves-MacBook-Pro.local (1090)] INFO : Application: development
+[2022-01-09 11:31:41 -0500 Steves-MacBook-Pro.local (1090)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 11:31:42 -0500 Steves-MacBook-Pro.local (1090)] INFO : Installing Sinatra instrumentation
+[2022-01-09 11:31:42 -0500 Steves-MacBook-Pro.local (1090)] INFO : Installing http.rb instrumentation
+[2022-01-09 11:31:42 -0500 Steves-MacBook-Pro.local (1090)] INFO : Installing Net instrumentation
+[2022-01-09 11:31:42 -0500 Steves-MacBook-Pro.local (1090)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 11:31:42 -0500 Steves-MacBook-Pro.local (1090)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 11:31:42 -0500 Steves-MacBook-Pro.local (1090)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 11:31:42 -0500 Steves-MacBook-Pro.local (1090)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 11:31:42 -0500 Steves-MacBook-Pro.local (1090)] INFO : Finished instrumentation
+[2022-01-09 11:31:43 -0500 Steves-MacBook-Pro.local (1090)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 11:31:43 -0500 Steves-MacBook-Pro.local (1090)] INFO : Installing Redis Instrumentation
+[2022-01-09 11:33:09 -0500 Steves-MacBook-Pro.local (1253)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 11:33:10 -0500 Steves-MacBook-Pro.local (1253)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 11:33:39 -0500 Steves-MacBook-Pro.local (1253)] INFO : Starting Agent shutdown
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Environment: development
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Dispatcher: puma
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Application: development
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Installing Sinatra instrumentation
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Installing http.rb instrumentation
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Installing Net instrumentation
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 11:33:42 -0500 Steves-MacBook-Pro.local (1286)] INFO : Finished instrumentation
+[2022-01-09 11:33:44 -0500 Steves-MacBook-Pro.local (1286)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 11:33:44 -0500 Steves-MacBook-Pro.local (1286)] INFO : Installing Redis Instrumentation
+[2022-01-09 11:33:49 -0500 Steves-MacBook-Pro.local (1423)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 11:33:51 -0500 Steves-MacBook-Pro.local (1423)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 11:38:17 -0500 Steves-MacBook-Pro.local (1423)] INFO : Starting Agent shutdown
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Environment: development
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Dispatcher: puma
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Application: development
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Installing Sinatra instrumentation
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Installing http.rb instrumentation
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Installing Net instrumentation
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 11:38:21 -0500 Steves-MacBook-Pro.local (1483)] INFO : Finished instrumentation
+[2022-01-09 11:38:22 -0500 Steves-MacBook-Pro.local (1483)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 11:38:22 -0500 Steves-MacBook-Pro.local (1483)] INFO : Installing Redis Instrumentation
+[2022-01-09 11:38:25 -0500 Steves-MacBook-Pro.local (1618)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 11:38:27 -0500 Steves-MacBook-Pro.local (1618)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 11:39:58 -0500 Steves-MacBook-Pro.local (1618)] INFO : Starting Agent shutdown
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Environment: development
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Dispatcher: puma
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Application: development
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Installing Sinatra instrumentation
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Installing http.rb instrumentation
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Installing Net instrumentation
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 11:40:01 -0500 Steves-MacBook-Pro.local (1662)] INFO : Finished instrumentation
+[2022-01-09 11:40:03 -0500 Steves-MacBook-Pro.local (1662)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 11:40:03 -0500 Steves-MacBook-Pro.local (1662)] INFO : Installing Redis Instrumentation
+[2022-01-09 11:40:05 -0500 Steves-MacBook-Pro.local (1800)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 11:40:07 -0500 Steves-MacBook-Pro.local (1800)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 11:44:32 -0500 Steves-MacBook-Pro.local (1800)] INFO : Starting Agent shutdown
+[2022-01-09 11:44:35 -0500 Steves-MacBook-Pro.local (1874)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 11:44:35 -0500 Steves-MacBook-Pro.local (1874)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 11:44:35 -0500 Steves-MacBook-Pro.local (1874)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 11:44:35 -0500 Steves-MacBook-Pro.local (1874)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 11:44:35 -0500 Steves-MacBook-Pro.local (1874)] INFO : Environment: development
+[2022-01-09 11:44:35 -0500 Steves-MacBook-Pro.local (1874)] INFO : Dispatcher: puma
+[2022-01-09 11:44:35 -0500 Steves-MacBook-Pro.local (1874)] INFO : Application: development
+[2022-01-09 11:44:35 -0500 Steves-MacBook-Pro.local (1874)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 11:44:36 -0500 Steves-MacBook-Pro.local (1874)] INFO : Installing Sinatra instrumentation
+[2022-01-09 11:44:36 -0500 Steves-MacBook-Pro.local (1874)] INFO : Installing http.rb instrumentation
+[2022-01-09 11:44:36 -0500 Steves-MacBook-Pro.local (1874)] INFO : Installing Net instrumentation
+[2022-01-09 11:44:36 -0500 Steves-MacBook-Pro.local (1874)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 11:44:36 -0500 Steves-MacBook-Pro.local (1874)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 11:44:36 -0500 Steves-MacBook-Pro.local (1874)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 11:44:36 -0500 Steves-MacBook-Pro.local (1874)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 11:44:36 -0500 Steves-MacBook-Pro.local (1874)] INFO : Finished instrumentation
+[2022-01-09 11:44:37 -0500 Steves-MacBook-Pro.local (1874)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 11:44:37 -0500 Steves-MacBook-Pro.local (1874)] INFO : Installing Redis Instrumentation
+[2022-01-09 11:44:42 -0500 Steves-MacBook-Pro.local (2010)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 11:44:45 -0500 Steves-MacBook-Pro.local (2010)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 11:47:27 -0500 Steves-MacBook-Pro.local (2010)] INFO : Starting Agent shutdown
+[2022-01-09 11:47:31 -0500 Steves-MacBook-Pro.local (2054)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 11:47:31 -0500 Steves-MacBook-Pro.local (2054)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 11:47:31 -0500 Steves-MacBook-Pro.local (2054)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 11:47:31 -0500 Steves-MacBook-Pro.local (2054)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 11:47:31 -0500 Steves-MacBook-Pro.local (2054)] INFO : Environment: development
+[2022-01-09 11:47:31 -0500 Steves-MacBook-Pro.local (2054)] INFO : Dispatcher: puma
+[2022-01-09 11:47:31 -0500 Steves-MacBook-Pro.local (2054)] INFO : Application: development
+[2022-01-09 11:47:31 -0500 Steves-MacBook-Pro.local (2054)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 11:47:32 -0500 Steves-MacBook-Pro.local (2054)] INFO : Installing Sinatra instrumentation
+[2022-01-09 11:47:32 -0500 Steves-MacBook-Pro.local (2054)] INFO : Installing http.rb instrumentation
+[2022-01-09 11:47:32 -0500 Steves-MacBook-Pro.local (2054)] INFO : Installing Net instrumentation
+[2022-01-09 11:47:32 -0500 Steves-MacBook-Pro.local (2054)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 11:47:32 -0500 Steves-MacBook-Pro.local (2054)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 11:47:32 -0500 Steves-MacBook-Pro.local (2054)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 11:47:32 -0500 Steves-MacBook-Pro.local (2054)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 11:47:32 -0500 Steves-MacBook-Pro.local (2054)] INFO : Finished instrumentation
+[2022-01-09 11:47:38 -0500 Steves-MacBook-Pro.local (2054)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 11:47:38 -0500 Steves-MacBook-Pro.local (2054)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Environment: development
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Dispatcher: puma
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Application: development
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Installing http.rb instrumentation
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Installing Net instrumentation
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:00:07 -0500 Steves-MacBook-Pro.local (2661)] INFO : Finished instrumentation
+[2022-01-09 12:01:52 -0500 Steves-MacBook-Pro.local (2661)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:01:52 -0500 Steves-MacBook-Pro.local (2661)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:02:11 -0500 Steves-MacBook-Pro.local (2816)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:02:11 -0500 Steves-MacBook-Pro.local (2816)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:02:11 -0500 Steves-MacBook-Pro.local (2816)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:02:11 -0500 Steves-MacBook-Pro.local (2816)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:02:11 -0500 Steves-MacBook-Pro.local (2816)] INFO : Environment: development
+[2022-01-09 12:02:11 -0500 Steves-MacBook-Pro.local (2816)] INFO : Dispatcher: puma
+[2022-01-09 12:02:11 -0500 Steves-MacBook-Pro.local (2816)] INFO : Application: development
+[2022-01-09 12:02:11 -0500 Steves-MacBook-Pro.local (2816)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:02:12 -0500 Steves-MacBook-Pro.local (2816)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:02:12 -0500 Steves-MacBook-Pro.local (2816)] INFO : Installing http.rb instrumentation
+[2022-01-09 12:02:12 -0500 Steves-MacBook-Pro.local (2816)] INFO : Installing Net instrumentation
+[2022-01-09 12:02:12 -0500 Steves-MacBook-Pro.local (2816)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:02:12 -0500 Steves-MacBook-Pro.local (2816)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:02:12 -0500 Steves-MacBook-Pro.local (2816)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:02:12 -0500 Steves-MacBook-Pro.local (2816)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:02:12 -0500 Steves-MacBook-Pro.local (2816)] INFO : Finished instrumentation
+[2022-01-09 12:02:39 -0500 Steves-MacBook-Pro.local (2816)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:02:39 -0500 Steves-MacBook-Pro.local (2816)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Environment: development
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Dispatcher: puma
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Application: development
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Installing Net instrumentation
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:07:53 -0500 Steves-MacBook-Pro.local (3940)] INFO : Finished instrumentation
+[2022-01-09 12:07:59 -0500 Steves-MacBook-Pro.local (3940)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:07:59 -0500 Steves-MacBook-Pro.local (3940)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Environment: development
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Dispatcher: puma
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Application: development
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Installing Net instrumentation
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:09:36 -0500 Steves-MacBook-Pro.local (4092)] INFO : Finished instrumentation
+[2022-01-09 12:11:27 -0500 Steves-MacBook-Pro.local (4092)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:11:27 -0500 Steves-MacBook-Pro.local (4092)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Environment: development
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Dispatcher: puma
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Application: development
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Installing Net instrumentation
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:13:36 -0500 Steves-MacBook-Pro.local (4754)] INFO : Finished instrumentation
+[2022-01-09 12:13:45 -0500 Steves-MacBook-Pro.local (4754)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:13:45 -0500 Steves-MacBook-Pro.local (4754)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Environment: development
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Dispatcher: puma
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Application: development
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Installing Net instrumentation
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:16:25 -0500 Steves-MacBook-Pro.local (4921)] INFO : Finished instrumentation
+[2022-01-09 12:16:35 -0500 Steves-MacBook-Pro.local (4921)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:16:35 -0500 Steves-MacBook-Pro.local (4921)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Environment: development
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Dispatcher: puma
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Application: development
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Installing Net instrumentation
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:23:09 -0500 Steves-MacBook-Pro.local (5135)] INFO : Finished instrumentation
+[2022-01-09 12:23:16 -0500 Steves-MacBook-Pro.local (5135)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:23:16 -0500 Steves-MacBook-Pro.local (5135)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Environment: development
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Dispatcher: puma
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Application: development
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Installing Net instrumentation
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:23:41 -0500 Steves-MacBook-Pro.local (5276)] INFO : Finished instrumentation
+[2022-01-09 12:23:43 -0500 Steves-MacBook-Pro.local (5276)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:23:43 -0500 Steves-MacBook-Pro.local (5276)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Environment: development
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Dispatcher: puma
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Application: development
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Installing Net instrumentation
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:24:22 -0500 Steves-MacBook-Pro.local (5421)] INFO : Finished instrumentation
+[2022-01-09 12:24:24 -0500 Steves-MacBook-Pro.local (5421)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:24:24 -0500 Steves-MacBook-Pro.local (5421)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:24:43 -0500 Steves-MacBook-Pro.local (5556)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:24:43 -0500 Steves-MacBook-Pro.local (5556)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:25:09 -0500 Steves-MacBook-Pro.local (5557)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:25:11 -0500 Steves-MacBook-Pro.local (5557)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:25:51 -0500 Steves-MacBook-Pro.local (5557)] INFO : Starting Agent shutdown
+[2022-01-09 12:25:51 -0500 Steves-MacBook-Pro.local (5556)] INFO : Starting Agent shutdown
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Environment: development
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Dispatcher: puma
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Application: development
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Installing Net instrumentation
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:25:53 -0500 Steves-MacBook-Pro.local (5608)] INFO : Finished instrumentation
+[2022-01-09 12:25:54 -0500 Steves-MacBook-Pro.local (5608)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:25:54 -0500 Steves-MacBook-Pro.local (5608)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:26:08 -0500 Steves-MacBook-Pro.local (5747)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:26:11 -0500 Steves-MacBook-Pro.local (5747)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:28:44 -0500 Steves-MacBook-Pro.local (5746)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:28:46 -0500 Steves-MacBook-Pro.local (5746)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:34:23 -0500 Steves-MacBook-Pro.local (5747)] INFO : Starting Agent shutdown
+[2022-01-09 12:34:23 -0500 Steves-MacBook-Pro.local (5746)] INFO : Starting Agent shutdown
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Environment: development
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Dispatcher: puma
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Application: development
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Installing Net instrumentation
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:40:56 -0500 Steves-MacBook-Pro.local (6175)] INFO : Finished instrumentation
+[2022-01-09 12:40:58 -0500 Steves-MacBook-Pro.local (6175)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:40:58 -0500 Steves-MacBook-Pro.local (6175)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:41:03 -0500 Steves-MacBook-Pro.local (6311)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:41:05 -0500 Steves-MacBook-Pro.local (6311)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:41:14 -0500 Steves-MacBook-Pro.local (6312)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:41:16 -0500 Steves-MacBook-Pro.local (6312)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:45:01 -0500 Steves-MacBook-Pro.local (6311)] INFO : Starting Agent shutdown
+[2022-01-09 12:45:01 -0500 Steves-MacBook-Pro.local (6312)] INFO : Starting Agent shutdown
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Environment: development
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Dispatcher: puma
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Application: development
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Installing Net instrumentation
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:45:16 -0500 Steves-MacBook-Pro.local (6381)] INFO : Finished instrumentation
+[2022-01-09 12:45:17 -0500 Steves-MacBook-Pro.local (6381)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:45:17 -0500 Steves-MacBook-Pro.local (6381)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:45:22 -0500 Steves-MacBook-Pro.local (6518)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:45:25 -0500 Steves-MacBook-Pro.local (6518)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:46:43 -0500 Steves-MacBook-Pro.local (6518)] INFO : Starting Agent shutdown
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Environment: development
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Dispatcher: puma
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Application: development
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Installing Net instrumentation
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:46:45 -0500 Steves-MacBook-Pro.local (6548)] INFO : Finished instrumentation
+[2022-01-09 12:46:47 -0500 Steves-MacBook-Pro.local (6548)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:46:47 -0500 Steves-MacBook-Pro.local (6548)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:46:53 -0500 Steves-MacBook-Pro.local (6685)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:46:54 -0500 Steves-MacBook-Pro.local (6685)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:47:50 -0500 Steves-MacBook-Pro.local (6685)] INFO : Starting Agent shutdown
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Environment: development
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Dispatcher: puma
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Application: development
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Installing Net instrumentation
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:47:52 -0500 Steves-MacBook-Pro.local (6715)] INFO : Finished instrumentation
+[2022-01-09 12:47:54 -0500 Steves-MacBook-Pro.local (6715)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:47:54 -0500 Steves-MacBook-Pro.local (6715)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:47:59 -0500 Steves-MacBook-Pro.local (6850)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:48:01 -0500 Steves-MacBook-Pro.local (6850)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:48:36 -0500 Steves-MacBook-Pro.local (6850)] INFO : Starting Agent shutdown
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Environment: development
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Dispatcher: puma
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Application: development
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Installing Net instrumentation
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:48:38 -0500 Steves-MacBook-Pro.local (6874)] INFO : Finished instrumentation
+[2022-01-09 12:48:39 -0500 Steves-MacBook-Pro.local (6874)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:48:39 -0500 Steves-MacBook-Pro.local (6874)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:48:46 -0500 Steves-MacBook-Pro.local (7010)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:48:48 -0500 Steves-MacBook-Pro.local (7010)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:51:48 -0500 Steves-MacBook-Pro.local (7010)] INFO : Starting Agent shutdown
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Environment: development
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Dispatcher: puma
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Application: development
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Installing Net instrumentation
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:51:50 -0500 Steves-MacBook-Pro.local (7051)] INFO : Finished instrumentation
+[2022-01-09 12:51:51 -0500 Steves-MacBook-Pro.local (7051)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:51:51 -0500 Steves-MacBook-Pro.local (7051)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:51:55 -0500 Steves-MacBook-Pro.local (7186)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:51:57 -0500 Steves-MacBook-Pro.local (7186)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:52:42 -0500 Steves-MacBook-Pro.local (7186)] INFO : Starting Agent shutdown
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Environment: development
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Dispatcher: puma
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Application: development
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Installing Net instrumentation
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:52:44 -0500 Steves-MacBook-Pro.local (7213)] INFO : Finished instrumentation
+[2022-01-09 12:52:45 -0500 Steves-MacBook-Pro.local (7213)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:52:45 -0500 Steves-MacBook-Pro.local (7213)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:52:50 -0500 Steves-MacBook-Pro.local (7348)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:52:52 -0500 Steves-MacBook-Pro.local (7348)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:53:04 -0500 Steves-MacBook-Pro.local (7348)] INFO : Starting Agent shutdown
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Environment: development
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Dispatcher: puma
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Application: development
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Installing Net instrumentation
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:53:06 -0500 Steves-MacBook-Pro.local (7368)] INFO : Finished instrumentation
+[2022-01-09 12:53:08 -0500 Steves-MacBook-Pro.local (7368)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:53:08 -0500 Steves-MacBook-Pro.local (7368)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:53:13 -0500 Steves-MacBook-Pro.local (7503)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:53:16 -0500 Steves-MacBook-Pro.local (7503)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:53:57 -0500 Steves-MacBook-Pro.local (7503)] INFO : Starting Agent shutdown
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Environment: development
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Dispatcher: puma
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Application: development
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Installing Net instrumentation
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:54:06 -0500 Steves-MacBook-Pro.local (7530)] INFO : Finished instrumentation
+[2022-01-09 12:54:07 -0500 Steves-MacBook-Pro.local (7530)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:54:07 -0500 Steves-MacBook-Pro.local (7530)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:54:11 -0500 Steves-MacBook-Pro.local (7665)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:54:11 -0500 Steves-MacBook-Pro.local (7665)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:54:24 -0500 Steves-MacBook-Pro.local (7665)] INFO : Starting Agent shutdown
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Environment: development
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Dispatcher: puma
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Application: development
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Installing Net instrumentation
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:54:26 -0500 Steves-MacBook-Pro.local (7685)] INFO : Finished instrumentation
+[2022-01-09 12:54:27 -0500 Steves-MacBook-Pro.local (7685)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:54:27 -0500 Steves-MacBook-Pro.local (7685)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:54:29 -0500 Steves-MacBook-Pro.local (7822)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:54:29 -0500 Steves-MacBook-Pro.local (7822)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:55:01 -0500 Steves-MacBook-Pro.local (7821)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:55:03 -0500 Steves-MacBook-Pro.local (7821)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:58:01 -0500 Steves-MacBook-Pro.local (7821)] INFO : Starting Agent shutdown
+[2022-01-09 12:58:01 -0500 Steves-MacBook-Pro.local (7822)] INFO : Starting Agent shutdown
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Environment: development
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Dispatcher: puma
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Application: development
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Installing Net instrumentation
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:58:05 -0500 Steves-MacBook-Pro.local (7888)] INFO : Finished instrumentation
+[2022-01-09 12:58:06 -0500 Steves-MacBook-Pro.local (7888)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:58:06 -0500 Steves-MacBook-Pro.local (7888)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:58:13 -0500 Steves-MacBook-Pro.local (8023)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:58:15 -0500 Steves-MacBook-Pro.local (8023)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 12:59:05 -0500 Steves-MacBook-Pro.local (8023)] INFO : Starting Agent shutdown
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Environment: development
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Dispatcher: puma
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Application: development
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Installing Sinatra instrumentation
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Installing Net instrumentation
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 12:59:07 -0500 Steves-MacBook-Pro.local (8049)] INFO : Finished instrumentation
+[2022-01-09 12:59:09 -0500 Steves-MacBook-Pro.local (8049)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 12:59:09 -0500 Steves-MacBook-Pro.local (8049)] INFO : Installing Redis Instrumentation
+[2022-01-09 12:59:14 -0500 Steves-MacBook-Pro.local (8185)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 12:59:15 -0500 Steves-MacBook-Pro.local (8185)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:00:39 -0500 Steves-MacBook-Pro.local (8185)] INFO : Starting Agent shutdown
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Environment: development
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Dispatcher: puma
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Application: development
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Installing Net instrumentation
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:00:42 -0500 Steves-MacBook-Pro.local (8218)] INFO : Finished instrumentation
+[2022-01-09 13:00:43 -0500 Steves-MacBook-Pro.local (8218)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:00:43 -0500 Steves-MacBook-Pro.local (8218)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:00:51 -0500 Steves-MacBook-Pro.local (8361)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:00:53 -0500 Steves-MacBook-Pro.local (8361)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:01:31 -0500 Steves-MacBook-Pro.local (8361)] INFO : Starting Agent shutdown
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Environment: development
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Dispatcher: puma
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Application: development
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Installing Net instrumentation
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:03:16 -0500 Steves-MacBook-Pro.local (8536)] INFO : Finished instrumentation
+[2022-01-09 13:03:17 -0500 Steves-MacBook-Pro.local (8536)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:03:17 -0500 Steves-MacBook-Pro.local (8536)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:03:21 -0500 Steves-MacBook-Pro.local (8671)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:03:24 -0500 Steves-MacBook-Pro.local (8671)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:03:26 -0500 Steves-MacBook-Pro.local (8672)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:03:27 -0500 Steves-MacBook-Pro.local (8672)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:04:43 -0500 Steves-MacBook-Pro.local (8672)] INFO : Starting Agent shutdown
+[2022-01-09 13:04:43 -0500 Steves-MacBook-Pro.local (8671)] INFO : Starting Agent shutdown
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Environment: development
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Dispatcher: puma
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Application: development
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Installing Net instrumentation
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:04:46 -0500 Steves-MacBook-Pro.local (8722)] INFO : Finished instrumentation
+[2022-01-09 13:04:47 -0500 Steves-MacBook-Pro.local (8722)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:04:47 -0500 Steves-MacBook-Pro.local (8722)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:04:51 -0500 Steves-MacBook-Pro.local (8858)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:04:53 -0500 Steves-MacBook-Pro.local (8858)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:05:25 -0500 Steves-MacBook-Pro.local (8857)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:05:27 -0500 Steves-MacBook-Pro.local (8857)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:06:20 -0500 Steves-MacBook-Pro.local (8858)] INFO : Starting Agent shutdown
+[2022-01-09 13:06:20 -0500 Steves-MacBook-Pro.local (8857)] INFO : Starting Agent shutdown
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Environment: development
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Dispatcher: puma
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Application: development
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Installing Net instrumentation
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:06:24 -0500 Steves-MacBook-Pro.local (8902)] INFO : Finished instrumentation
+[2022-01-09 13:06:27 -0500 Steves-MacBook-Pro.local (8902)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:06:27 -0500 Steves-MacBook-Pro.local (8902)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:06:35 -0500 Steves-MacBook-Pro.local (9038)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:06:36 -0500 Steves-MacBook-Pro.local (9038)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:07:26 -0500 Steves-MacBook-Pro.local (9039)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:07:28 -0500 Steves-MacBook-Pro.local (9039)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:17:36 -0500 Steves-MacBook-Pro.local (9038)] INFO : Starting Agent shutdown
+[2022-01-09 13:17:36 -0500 Steves-MacBook-Pro.local (9039)] INFO : Starting Agent shutdown
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Environment: development
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Dispatcher: puma
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Application: development
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Installing Net instrumentation
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:17:39 -0500 Steves-MacBook-Pro.local (9175)] INFO : Finished instrumentation
+[2022-01-09 13:17:41 -0500 Steves-MacBook-Pro.local (9175)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:17:41 -0500 Steves-MacBook-Pro.local (9175)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:21:10 -0500 Steves-MacBook-Pro.local (9311)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:21:12 -0500 Steves-MacBook-Pro.local (9311)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:21:17 -0500 Steves-MacBook-Pro.local (9312)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:21:17 -0500 Steves-MacBook-Pro.local (9312)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:21:55 -0500 Steves-MacBook-Pro.local (9311)] INFO : Starting Agent shutdown
+[2022-01-09 13:21:55 -0500 Steves-MacBook-Pro.local (9312)] INFO : Starting Agent shutdown
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Environment: development
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Dispatcher: puma
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Application: development
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Installing Net instrumentation
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:21:57 -0500 Steves-MacBook-Pro.local (9378)] INFO : Finished instrumentation
+[2022-01-09 13:21:59 -0500 Steves-MacBook-Pro.local (9378)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:21:59 -0500 Steves-MacBook-Pro.local (9378)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Environment: development
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Dispatcher: puma
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Application: development
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Installing Net instrumentation
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:22:39 -0500 Steves-MacBook-Pro.local (9519)] INFO : Finished instrumentation
+[2022-01-09 13:22:40 -0500 Steves-MacBook-Pro.local (9519)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:22:40 -0500 Steves-MacBook-Pro.local (9519)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Environment: development
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Environment: development
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : No known dispatcher detected.
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : No known dispatcher detected.
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Application: development
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Application: development
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Installing Net instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Installing Net instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9794)] INFO : Finished instrumentation
+[2022-01-09 13:23:20 -0500 Steves-MacBook-Pro.local (9795)] INFO : Finished instrumentation
+[2022-01-09 13:23:21 -0500 Steves-MacBook-Pro.local (9794)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:23:21 -0500 Steves-MacBook-Pro.local (9795)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:23:21 -0500 Steves-MacBook-Pro.local (9794)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:23:21 -0500 Steves-MacBook-Pro.local (9795)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:23:39 -0500 Steves-MacBook-Pro.local (9795)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 13:23:41 -0500 Steves-MacBook-Pro.local (9795)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 13:23:50 -0500 Steves-MacBook-Pro.local (9795)] INFO : Starting Agent shutdown
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Environment: development
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Environment: development
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : No known dispatcher detected.
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : No known dispatcher detected.
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Application: development
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Application: development
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Installing Net instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Installing Net instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9954)] INFO : Finished instrumentation
+[2022-01-09 13:23:53 -0500 Steves-MacBook-Pro.local (9955)] INFO : Finished instrumentation
+[2022-01-09 13:23:54 -0500 Steves-MacBook-Pro.local (9954)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:23:54 -0500 Steves-MacBook-Pro.local (9954)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:23:54 -0500 Steves-MacBook-Pro.local (9955)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:23:54 -0500 Steves-MacBook-Pro.local (9955)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Environment: development
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Environment: development
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : No known dispatcher detected.
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : No known dispatcher detected.
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Application: development
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Application: development
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Installing Net instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Installing Net instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10101)] INFO : Finished instrumentation
+[2022-01-09 13:24:32 -0500 Steves-MacBook-Pro.local (10102)] INFO : Finished instrumentation
+[2022-01-09 13:24:33 -0500 Steves-MacBook-Pro.local (10102)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:24:33 -0500 Steves-MacBook-Pro.local (10101)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:24:33 -0500 Steves-MacBook-Pro.local (10102)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:24:33 -0500 Steves-MacBook-Pro.local (10101)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Environment: development
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Environment: development
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : No known dispatcher detected.
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : No known dispatcher detected.
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Application: development
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Application: development
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Installing Net instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Installing Net instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10246)] INFO : Finished instrumentation
+[2022-01-09 13:25:01 -0500 Steves-MacBook-Pro.local (10247)] INFO : Finished instrumentation
+[2022-01-09 13:25:02 -0500 Steves-MacBook-Pro.local (10246)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:25:02 -0500 Steves-MacBook-Pro.local (10247)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:25:02 -0500 Steves-MacBook-Pro.local (10246)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:25:02 -0500 Steves-MacBook-Pro.local (10247)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Environment: development
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Environment: development
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : No known dispatcher detected.
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : No known dispatcher detected.
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Application: development
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Application: development
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Installing Net instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Installing Net instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10402)] INFO : Finished instrumentation
+[2022-01-09 13:25:45 -0500 Steves-MacBook-Pro.local (10401)] INFO : Finished instrumentation
+[2022-01-09 13:25:46 -0500 Steves-MacBook-Pro.local (10402)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:25:46 -0500 Steves-MacBook-Pro.local (10401)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:25:46 -0500 Steves-MacBook-Pro.local (10402)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:25:46 -0500 Steves-MacBook-Pro.local (10401)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Environment: development
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Environment: development
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : No known dispatcher detected.
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : No known dispatcher detected.
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Application: development
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Application: development
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Installing Net instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Installing Net instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10546)] INFO : Finished instrumentation
+[2022-01-09 13:26:07 -0500 Steves-MacBook-Pro.local (10545)] INFO : Finished instrumentation
+[2022-01-09 13:26:08 -0500 Steves-MacBook-Pro.local (10546)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:26:08 -0500 Steves-MacBook-Pro.local (10545)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:26:08 -0500 Steves-MacBook-Pro.local (10546)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:26:08 -0500 Steves-MacBook-Pro.local (10545)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Environment: development
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Dispatcher: puma
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Application: development
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Installing Net instrumentation
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:26:21 -0500 Steves-MacBook-Pro.local (10557)] INFO : Finished instrumentation
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Environment: development
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Dispatcher: puma
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Application: development
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Installing Net instrumentation
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:27:00 -0500 Steves-MacBook-Pro.local (10699)] INFO : Finished instrumentation
+[2022-01-09 13:27:01 -0500 Steves-MacBook-Pro.local (10699)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:27:01 -0500 Steves-MacBook-Pro.local (10699)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:27:27 -0500 Steves-MacBook-Pro.local (10841)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:27:27 -0500 Steves-MacBook-Pro.local (10841)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:27:27 -0500 Steves-MacBook-Pro.local (10841)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:27:27 -0500 Steves-MacBook-Pro.local (10841)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:27:27 -0500 Steves-MacBook-Pro.local (10841)] INFO : Environment: development
+[2022-01-09 13:27:27 -0500 Steves-MacBook-Pro.local (10841)] INFO : Dispatcher: puma
+[2022-01-09 13:27:27 -0500 Steves-MacBook-Pro.local (10841)] INFO : Application: development
+[2022-01-09 13:27:27 -0500 Steves-MacBook-Pro.local (10841)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:27:28 -0500 Steves-MacBook-Pro.local (10841)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:27:28 -0500 Steves-MacBook-Pro.local (10841)] INFO : Installing Net instrumentation
+[2022-01-09 13:27:28 -0500 Steves-MacBook-Pro.local (10841)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:27:28 -0500 Steves-MacBook-Pro.local (10841)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:27:28 -0500 Steves-MacBook-Pro.local (10841)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:27:28 -0500 Steves-MacBook-Pro.local (10841)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:27:28 -0500 Steves-MacBook-Pro.local (10841)] INFO : Finished instrumentation
+[2022-01-09 13:27:29 -0500 Steves-MacBook-Pro.local (10841)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:27:29 -0500 Steves-MacBook-Pro.local (10841)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Environment: development
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Environment: development
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : No known dispatcher detected.
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : No known dispatcher detected.
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Application: development
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Application: development
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Installing Net instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Installing Net instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11113)] INFO : Finished instrumentation
+[2022-01-09 13:27:41 -0500 Steves-MacBook-Pro.local (11114)] INFO : Finished instrumentation
+[2022-01-09 13:27:42 -0500 Steves-MacBook-Pro.local (11114)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:27:42 -0500 Steves-MacBook-Pro.local (11114)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:27:42 -0500 Steves-MacBook-Pro.local (11113)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:27:42 -0500 Steves-MacBook-Pro.local (11113)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Environment: development
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Environment: development
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : No known dispatcher detected.
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : No known dispatcher detected.
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Application: development
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Application: development
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Installing Sinatra instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Installing Net instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Installing Net instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11258)] INFO : Finished instrumentation
+[2022-01-09 13:27:55 -0500 Steves-MacBook-Pro.local (11257)] INFO : Finished instrumentation
+[2022-01-09 13:27:56 -0500 Steves-MacBook-Pro.local (11257)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:27:56 -0500 Steves-MacBook-Pro.local (11258)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 13:27:56 -0500 Steves-MacBook-Pro.local (11257)] INFO : Installing Redis Instrumentation
+[2022-01-09 13:27:56 -0500 Steves-MacBook-Pro.local (11258)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Environment: development
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Environment: development
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : No known dispatcher detected.
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : No known dispatcher detected.
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Application: development
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Application: development
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Installing Net instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Installing Net instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14910)] INFO : Finished instrumentation
+[2022-01-09 15:44:18 -0500 Steves-MacBook-Pro.local (14911)] INFO : Finished instrumentation
+[2022-01-09 15:44:20 -0500 Steves-MacBook-Pro.local (14910)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:44:20 -0500 Steves-MacBook-Pro.local (14911)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:44:20 -0500 Steves-MacBook-Pro.local (14910)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:44:20 -0500 Steves-MacBook-Pro.local (14911)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Environment: development
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Environment: development
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : No known dispatcher detected.
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : No known dispatcher detected.
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Application: development
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Application: development
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Installing Net instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Installing Net instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15266)] INFO : Finished instrumentation
+[2022-01-09 15:45:23 -0500 Steves-MacBook-Pro.local (15267)] INFO : Finished instrumentation
+[2022-01-09 15:45:24 -0500 Steves-MacBook-Pro.local (15266)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:45:24 -0500 Steves-MacBook-Pro.local (15267)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:45:24 -0500 Steves-MacBook-Pro.local (15266)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:45:24 -0500 Steves-MacBook-Pro.local (15267)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Environment: development
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Dispatcher: puma
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Application: development
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Installing Net instrumentation
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:48:13 -0500 Steves-MacBook-Pro.local (15468)] INFO : Finished instrumentation
+[2022-01-09 15:48:14 -0500 Steves-MacBook-Pro.local (15468)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:48:14 -0500 Steves-MacBook-Pro.local (15468)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Environment: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Environment: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Environment: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Environment: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : No known dispatcher detected.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Environment: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : No known dispatcher detected.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : No known dispatcher detected.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : No known dispatcher detected.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Application: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : No known dispatcher detected.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Application: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Application: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Application: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Application: development
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Installing Sinatra instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Installing Net instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Installing Net instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Installing Net instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Installing Net instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Installing Net instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15799)] INFO : Finished instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15797)] INFO : Finished instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15798)] INFO : Finished instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15800)] INFO : Finished instrumentation
+[2022-01-09 15:56:24 -0500 Steves-MacBook-Pro.local (15801)] INFO : Finished instrumentation
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15799)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15797)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15800)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15801)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15798)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15799)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15797)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15800)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15801)] INFO : Installing Redis Instrumentation
+[2022-01-09 15:56:26 -0500 Steves-MacBook-Pro.local (15798)] INFO : Installing Redis Instrumentation
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Environment: development
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Dispatcher: puma
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Application: development
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Installing Sinatra instrumentation
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Installing Net instrumentation
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 17:06:45 -0500 Steves-MacBook-Pro.local (17874)] INFO : Finished instrumentation
+[2022-01-09 17:06:46 -0500 Steves-MacBook-Pro.local (17874)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 17:06:46 -0500 Steves-MacBook-Pro.local (17874)] INFO : Installing Redis Instrumentation
+[2022-01-09 17:06:53 -0500 Steves-MacBook-Pro.local (18006)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 17:06:56 -0500 Steves-MacBook-Pro.local (18006)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 17:11:01 -0500 Steves-MacBook-Pro.local (18006)] INFO : Starting Agent shutdown
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Environment: development
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Dispatcher: puma
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Application: development
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Installing Sinatra instrumentation
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Installing Net instrumentation
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 17:11:05 -0500 Steves-MacBook-Pro.local (18058)] INFO : Finished instrumentation
+[2022-01-09 17:11:06 -0500 Steves-MacBook-Pro.local (18058)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 17:11:06 -0500 Steves-MacBook-Pro.local (18058)] INFO : Installing Redis Instrumentation
+[2022-01-09 17:11:08 -0500 Steves-MacBook-Pro.local (18190)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 17:11:08 -0500 Steves-MacBook-Pro.local (18190)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 17:11:39 -0500 Steves-MacBook-Pro.local (18189)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 17:11:42 -0500 Steves-MacBook-Pro.local (18189)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 17:26:01 -0500 Steves-MacBook-Pro.local (18189)] INFO : Starting Agent shutdown
+[2022-01-09 17:26:01 -0500 Steves-MacBook-Pro.local (18190)] INFO : Starting Agent shutdown
+[2022-01-09 17:30:59 -0500 Steves-MacBook-Pro.local (18381)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-09 17:30:59 -0500 Steves-MacBook-Pro.local (18381)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-09 17:30:59 -0500 Steves-MacBook-Pro.local (18381)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-09 17:30:59 -0500 Steves-MacBook-Pro.local (18381)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-09 17:30:59 -0500 Steves-MacBook-Pro.local (18381)] INFO : Environment: development
+[2022-01-09 17:30:59 -0500 Steves-MacBook-Pro.local (18381)] INFO : Dispatcher: puma
+[2022-01-09 17:30:59 -0500 Steves-MacBook-Pro.local (18381)] INFO : Application: development
+[2022-01-09 17:30:59 -0500 Steves-MacBook-Pro.local (18381)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-09 17:31:00 -0500 Steves-MacBook-Pro.local (18381)] INFO : Installing Sinatra instrumentation
+[2022-01-09 17:31:00 -0500 Steves-MacBook-Pro.local (18381)] INFO : Installing Net instrumentation
+[2022-01-09 17:31:00 -0500 Steves-MacBook-Pro.local (18381)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-09 17:31:00 -0500 Steves-MacBook-Pro.local (18381)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-09 17:31:00 -0500 Steves-MacBook-Pro.local (18381)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-09 17:31:00 -0500 Steves-MacBook-Pro.local (18381)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-09 17:31:00 -0500 Steves-MacBook-Pro.local (18381)] INFO : Finished instrumentation
+[2022-01-09 17:31:01 -0500 Steves-MacBook-Pro.local (18381)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-09 17:31:01 -0500 Steves-MacBook-Pro.local (18381)] INFO : Installing Redis Instrumentation
+[2022-01-09 17:38:11 -0500 Steves-MacBook-Pro.local (18512)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-09 17:38:13 -0500 Steves-MacBook-Pro.local (18512)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-09 17:51:25 -0500 Steves-MacBook-Pro.local (18512)] INFO : Starting Agent shutdown
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Environment: development
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Dispatcher: puma
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Application: development
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Installing Sinatra instrumentation
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Installing Net instrumentation
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-11 10:15:40 -0500 Steves-MacBook-Pro.local (39355)] INFO : Finished instrumentation
+[2022-01-11 10:15:42 -0500 Steves-MacBook-Pro.local (39355)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-11 10:15:42 -0500 Steves-MacBook-Pro.local (39355)] INFO : Installing Redis Instrumentation
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Environment: development
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Dispatcher: puma
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Application: development
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Installing Sinatra instrumentation
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Installing Net instrumentation
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Finished instrumentation
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-11 10:15:55 -0500 Steves-MacBook-Pro.local (39491)] INFO : Installing Redis Instrumentation
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Starting the New Relic agent version 6.10.0.364 in "development" environment.
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] WARN : No configuration file found. Working directory = /Users/stevemitchell/Code/process_forking
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] WARN : Looked in these locations (based on defaults): /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/Code/process_forking/config/newrelic.yml, /Users/stevemitchell/Code/process_forking/newrelic.yml, /Users/stevemitchell/.newrelic/newrelic.yml, /Users/stevemitchell/newrelic.yml
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Environment: development
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Dispatcher: puma
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Application: development
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Installing Sinatra instrumentation
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Installing Net instrumentation
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Installing deferred Rack::Builder instrumentation
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Installing Rack::Builder middleware instrumentation
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Installing deferred Puma::Rack::Builder instrumentation
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Installing Puma::Rack::Builder middleware instrumentation
+[2022-01-17 20:32:22 -0500 Steves-MacBook-Pro.local (67203)] INFO : Finished instrumentation
+[2022-01-17 20:32:23 -0500 Steves-MacBook-Pro.local (67203)] INFO : Doing deferred dependency-detection before Rack startup
+[2022-01-17 20:32:23 -0500 Steves-MacBook-Pro.local (67203)] INFO : Installing Redis Instrumentation
+[2022-01-17 20:32:43 -0500 Steves-MacBook-Pro.local (67334)] INFO : NewRelic::Agent::Samplers::MemorySampler not available: Unsupported platform for getting memory: x86_64-darwin20
+[2022-01-17 20:32:45 -0500 Steves-MacBook-Pro.local (67334)] WARN : Agent received a ForceDisconnectException from the server, disconnecting. (410: Gone)
+[2022-01-17 20:38:29 -0500 Steves-MacBook-Pro.local (67334)] INFO : Starting Agent shutdown
